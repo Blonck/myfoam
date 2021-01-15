@@ -10,7 +10,7 @@ Let's go through this to set up your repo:
   - **tip** - `cmd+click` on a node to navigate to it
   - **tip** - keep the graph open. As you navigate your files, it will focus on the active note, so you can at a glance see how it's connected in your knowledge base
 
-- [ ] #tags can be used to further organize your content. Look at the `Tag Explorer` view on the left panel to find and navigate the tags in your knowledge base
+- [x] #tags can be used to further organize your content. Look at the `Tag Explorer` view on the left panel to find and navigate the tags in your knowledge base
 
 - [ ] You can use Foam for your daily notes, or journaling. Execute now the `Foam: Open Daily Note` command to create a new file in your `journal` folder.
   - **tip** - you can customize location, filename and note title for you daily notes in the settings
