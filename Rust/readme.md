@@ -1,1 +1,1 @@
-Collection of vim Materials
+Collection of Rust Materials
