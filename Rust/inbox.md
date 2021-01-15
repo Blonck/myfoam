@@ -1,4 +1,4 @@
-# Rist Inbox
+# Rust Inbox
 
 ## unsorted list
 
