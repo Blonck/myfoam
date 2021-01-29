@@ -11,7 +11,7 @@ def pandas_df_to_markdown_table(df):
     df_fmt = pd.DataFrame([fmt], columns=df.columns)
     df_formatted = pd.concat([df_fmt, df])
     display(Markdown(df_formatted.to_csv(sep="|", index=False)))
- 
+
 pandas_df_to_markdown_table(target_customer)
 ```
 
@@ -21,7 +21,7 @@ pandas_df_to_markdown_table(target_customer)
 nrows = len(df)
 total_sample_size = 1e4
 df.groupby('classes').\
-    apply(lambda x: x.sample((x.count()//nrows)*total_sample_size)))
+    apply(lambda x: x.sample(int(x.count()/nrows)*total_sample_size)))
 ```
 
 ## Links
