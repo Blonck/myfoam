@@ -15,6 +15,15 @@ def pandas_df_to_markdown_table(df):
 pandas_df_to_markdown_table(target_customer)
 ```
 
+### sample DataFrame equally from each class
+
+```python
+nrows = len(df)
+total_sample_size = 1e4
+df.groupby('classes').\
+    apply(lambda x: x.sample((x.count()//nrows)*total_sample_size)))
+```
+
 ## Links
 
 How to use pandas effectively [https://github.com/TomAugspurger/effective-pandas]
