@@ -23,7 +23,7 @@ total_sample_size = 1e4
 df.groupby('classes').\
     apply(lambda x: x.sample(int(x.count()/nrows)*total_sample_size)))
 ```
-
+from [https://stackoverflow.com/questions/40645524/how-can-i-sample-equally-from-a-dataframe]
 ## Links
 
 How to use pandas effectively [https://github.com/TomAugspurger/effective-pandas]
