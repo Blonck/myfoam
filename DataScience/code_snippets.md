@@ -1,6 +1,6 @@
-# Pandas
+# Snippets
 
-## Snippets
+## Pandas
 
 ### show table as markdown inside notebook
 
@@ -25,9 +25,9 @@ df.groupby('classes').\
 ```
 from [https://stackoverflow.com/questions/40645524/how-can-i-sample-equally-from-a-dataframe]
 
-### Plotting
+## Plotting
 
-#### folium: map with time slider: compare two points moving on map
+### folium: map with time slider: compare two points moving on map
 
 ```python
 def compare_traces(trace1, trace2):
@@ -97,7 +97,7 @@ def compare_traces(trace1, trace2):
     return m
 ```
 
-#### matplotlib: error bands
+### matplotlib: error bands
 
 ```python
 import matplotlib.pyplot as plt
