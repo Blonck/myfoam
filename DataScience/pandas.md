@@ -97,6 +97,17 @@ def compare_traces(trace1, trace2):
     return m
 ```
 
+#### matplotlib: error bands
+
+```python
+import matplotlib.pyplot as plt
+
+plt.figure( figsize=(20, 20) )
+
+fig = df.plot(x = 'DATE', y = ['MEAN', 'UPPER_BAND', 'LOWER_BAND'])
+fig.fill_between(x = df['DATE'], y1 = df['LOWER_BAND'], y2 = df['UPPER_BAND'], alpha = 0.2, color = 'green')
+```
+
 ## Links
 
 How to use pandas effectively [https://github.com/TomAugspurger/effective-pandas]
