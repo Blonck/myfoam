@@ -1,6 +1,6 @@
-# Pandas
+# Snippets
 
-## Snippets
+## Pandas
 
 ### show table as markdown inside notebook
 
