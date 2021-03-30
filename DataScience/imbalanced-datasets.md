@@ -1,4 +1,5 @@
-# Handling Imabalanced datassets
+# Handling Imabalanced datassets 
+- what to do with Imabalanced datasets #imbalanced-data
 
 ## Over sample/under sample underrepresented class
 
@@ -63,6 +64,9 @@ class FocalLoss(nn.Module):
             loss = loss.sum(dim=1)
         return loss.mean()
 ```
+
+## metrics for imbalanced datasets
+
 
 ## Links
 
